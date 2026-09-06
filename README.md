@@ -1,5 +1,5 @@
 # HTMLIX
-tool designed to scan URLs for html injection
+tool designed to scan URLs for html injection this can lead to xss also
 
 python3 htmlix.py -u "https://example.com/search?q=test" -p payloads.txt
 
